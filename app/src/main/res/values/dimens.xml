@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_height">100dp</dimen>
+    <dimen name="box_corner">10dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_rv_items">5dp</dimen>
+</resources>

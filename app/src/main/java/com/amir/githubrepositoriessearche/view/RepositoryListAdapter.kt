@@ -68,7 +68,7 @@ class RepositoryListAdapter(private val repositoryList: MutableList<Item>) :
             title.text = data.fullName
             owner.text = data.owner?.login
             url.text = data.htmlUrl
-
+              //opening the clicked repository
             itemView.setOnClickListener {
                 Toast.makeText(itemView.context, "${data.fullName} clicked.", Toast.LENGTH_SHORT)
                     .show()

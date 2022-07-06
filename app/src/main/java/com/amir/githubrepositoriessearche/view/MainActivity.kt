@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         binding.search.setOnClickListener {
             val q = binding.keyword.text.toString()
 
-            // To show a new result every time you search
+            // To show a new result every time user search
             repoList = mutableListOf()
             binding.tvNothingFound.visibility = View.GONE
             binding.progressBar.visibility = View.VISIBLE

@@ -2,4 +2,7 @@
     <string name="app_name">GithubRepositoriesSearche</string>
     <string name="error_text">An error occurred while loading Data.</string>
     <string name="nothing_found">Your entered repository does not exist. please try again!</string>
+    <string name="search_github">Search GitHub</string>
+    <string name="what_are_you_looking_for">What are you looking for</string>
+    <string name="github_image">github_image</string>
 </resources>

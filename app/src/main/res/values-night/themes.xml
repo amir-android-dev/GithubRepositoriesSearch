@@ -3,7 +3,7 @@
     <style name="Theme.GithubRepositoriesSearche" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/anti_flash_white</item>
-        <item name="colorPrimaryVariant">@color/rose_wood</item>
+        <item name="colorPrimaryVariant">@color/mahogany</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

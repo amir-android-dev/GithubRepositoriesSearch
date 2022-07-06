@@ -62,13 +62,15 @@ class RepositoryListAdapter(private val repositoryList: MutableList<Item>) :
         private val owner = itemView.findViewById<TextView>(R.id.tv_owner) // repository author
         private val url = itemView.findViewById<TextView>(R.id.tv_url) // HTTP URL
         val cvContainer: CardView = itemView.findViewById(R.id.cv_container) // HTTP URL
+
+        @SuppressLint("SetTextI18n")
         fun bind(data: Item) {
 
 
-            title.text = data.fullName
-            owner.text = data.owner?.login
-            url.text = data.htmlUrl
-              //opening the clicked repository
+            title.text = "Title:  " + data.fullName
+            owner.text = "Author:  " + data.owner?.login
+            url.text = "URL Address:  " + data.htmlUrl
+            //opening the clicked repository
             itemView.setOnClickListener {
                 Toast.makeText(itemView.context, "${data.fullName} clicked.", Toast.LENGTH_SHORT)
                     .show()

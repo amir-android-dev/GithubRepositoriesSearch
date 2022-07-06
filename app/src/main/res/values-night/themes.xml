@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.GithubRepositoriesSearche" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/anti_flash_white</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/mahogany</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
